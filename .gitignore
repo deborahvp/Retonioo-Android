@@ -1,0 +1,28 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Artefactos de build de cualquier módulo (app/build, etc.) — generados, no se suben
+build/
+.kotlin/
+
+# Configuración local de Android Studio
+/.idea/
+
+# Planeación interna y script de simulación (no forman parte del proyecto entregable)
+/docs/
+/simulate_commits.sh
+/backend/node_modules/
+/backend/.env
